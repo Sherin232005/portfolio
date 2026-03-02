@@ -5,22 +5,29 @@
   "description": "",
   "author": "",
   "license": "ISC",
-
   "engines": {
     "node": ">=20"
   },
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
     "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.576.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-scroll": "^1.9.3",
+    "three": "^0.183.2"
   }
 }
